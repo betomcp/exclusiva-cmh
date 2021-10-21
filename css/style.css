@@ -169,7 +169,8 @@ header i{
 /* EMPRESA */
 
 .empresa_container{
-    background-image: url(../images/sobre-nos/Empresa.png);
+    /* background-image: url(../images/sobre-nos/Empresa.png); */
+    background-image: url(../images/sobre-nos/quem-somos-fundo-2.png);
     background-position: right ;
     background-repeat: no-repeat;
     background-size: cover;  
@@ -258,7 +259,7 @@ header i{
     /* background-color: rgba(0, 153, 218, 0.699); */
     /* background-color: rgba(145, 216, 247, 0.815); */
     /* box-shadow: 0 0 8px rgb(49, 49, 49); */
-    border-bottom: solid 1px black;
+    /* border-bottom: solid 1px black; */
 }
 
 
@@ -504,14 +505,14 @@ header i{
 }
 
 .container_produtos_1 p{
-    padding: 0rem 10rem;
-    font-size: 1.3rem;
+    padding: .7rem 10rem;
+    font-size: 1rem;
     text-align: center;
     /* color: rgb(87, 87, 87); */
     color: rgb(53, 51, 117);
     letter-spacing: 1px;
     font-size: 1.4rem;
-    line-height: 2.3rem;
+    line-height: 2.2rem;
 }
 
 #header_produtos{
@@ -565,4 +566,13 @@ header i{
 
 
 
+
+
+/* FOOTER */
+
+footer{
+    height: 30vh;
+    background-image: linear-gradient(to bottom, rgb(53, 51, 117), rgb(0, 152, 216));
+    
+}
 
