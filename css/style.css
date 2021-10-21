@@ -553,6 +553,7 @@ header i{
     width: 23%;
     margin-top: 1rem;
     margin: 1rem 1rem;
+    transition: .6s;
 }
 
 .div_card h3{
@@ -573,8 +574,19 @@ header i{
     height: 19rem;
     border-radius: 40px;
     box-shadow: rgb(128, 128, 128) 0 0 7px;
-    
-    background-color: white;}
+    transition: .6s;
+    background-color: white;
+}
+
+.div_card:hover{
+    width: 24%;
+    /* height: 30rem; */
+    cursor: pointer;
+}
+
+.produto_card:hover{
+    height: 20rem;
+}
 
 .burger{
     position: fixed;
