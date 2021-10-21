@@ -588,6 +588,15 @@ header i{
     background-color: transparent;
 }
 
+.arrow{
+    width: 100px;
+    height: 70px;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
 
 
 
