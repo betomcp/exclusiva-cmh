@@ -57,6 +57,7 @@ header li{
 }
 
 header a{
+    /* color: rgb(53, 51, 117); */
     color: white;
     text-decoration: none;
     font-size: 1rem;
@@ -88,6 +89,8 @@ header i{
 .container{
     width: 100%;
     height: 100vh;
+    background-attachment: fixed;
+
 }
 
 .container h2{
@@ -189,6 +192,8 @@ header i{
     background-position: right ;
     background-repeat: no-repeat;
     background-size: cover;  
+    background-attachment: fixed;
+
 }
 
 .eventos_container h2{
@@ -200,9 +205,11 @@ header i{
 /* CONTATO */
 
 .contato_container{
-    /* background-image: linear-gradient(to bottom, rgb(53, 51, 117), rgb(0, 152, 218)); */
+    background-image: linear-gradient(to bottom, rgb(53, 51, 117), rgb(0, 152, 216));
     /* background-image: linear-gradient(210deg, rgb(0, 152, 218), rgb(145, 216, 247)); */
-    background-image: linear-gradient(140deg, rgb(0, 152, 218), rgb(145, 216, 247));
+    /* background-image: linear-gradient(140deg, rgb(0, 152, 218), rgb(145, 216, 247)); */
+    /* background-image: linear-gradient(to bottom, rgb(0, 152, 218), rgb(190, 242, 255)); */
+    background-attachment: fixed;
     position: absolute;
     z-index: -2;
 }
@@ -223,6 +230,7 @@ header i{
 .contato_container h2{
      /* color: rgb(0, 0, 0); */
     color: rgb(43, 43, 43);
+    color: white;
 
 }
 
@@ -386,37 +394,45 @@ header i{
 
 
 .fa-linkedin{
-    color: #2867B2;
-    background-color: white;
+    /* color: #2867B2; */
+    /* background-color: white; */
+    color: rgb(255, 255, 255);
     padding: 2px;
     border-radius: 5px;
+    font-size: 1.3rem;
 }
 
 .fa-instagram{
-    background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-    color: white;
+    /* background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); */
+    color: rgb(255, 255, 255);
     padding: 2px;
     border-radius: 5px;
     padding-bottom: 1.4px;
 }
 
 .fa-map-marker-alt{
-    color: rgb(219, 219, 219);
+    color: rgb(255, 255, 255);
 }
 
 .fa-whatsapp{
-    background-color: 	#25D366;
+    /* background-color: 	#25D366; */
     color: white;
     border-radius: 5px;
     padding: 2px;
+    color: rgb(255, 255, 255);
+
 }
 
 .fa-envelope{
     color: rgb(37, 0, 245);
+    color: rgb(255, 255, 255);
+
 }
 
 .fa-phone-alt{
     color: rgb(77, 77, 77);
+    color: rgb(255, 255, 255);
+
 }
 
 
@@ -454,6 +470,98 @@ header i{
 
 
 
+
+/* PRODUTOS */
+
+#body-produtos{
+    /* background-image: linear-gradient(170deg, white, rgb(145, 216,2477), rgb(0, 152, 218), rgb(53, 51, 117)); */
+    background-image: url(../images/produtos/fundo.png);
+    background-size: cover;
+}
+
+#produtos-fundo-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 47%;
+}
+
+.container_produtos_1 {
+    margin-top: 10rem;
+    /* border: solid 2px red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_produtos_1 h2{
+    /* color: rgb(0, 152, 247); */
+    color: white;
+    font-weight: 300;
+    font-size: 10rem;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+.container_produtos_1 p{
+    padding: 0rem 10rem;
+    font-size: 1.3rem;
+    text-align: center;
+    /* color: rgb(87, 87, 87); */
+    color: rgb(53, 51, 117);
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+}
+
+#header_produtos{
+    background-color: transparent;
+}
+
+#header_produtos a{
+    /* color: rgb(255, 255, 255); */
+    color: rgb(53, 51, 117);
+
+}
+
+#header_produtos a:hover{
+    /* color: rgb(53, 51, 117); */
+    background-color: white;
+}
+
+.produtos_biotronic{
+    /* height: 100%; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+    padding-top: 7rem;
+    /* border: solid 2px red; */
+    width: 100%;
+
+}
+
+
+.produto_card{
+    width: 23%;
+    height: 19rem;
+    border-radius: 40px;
+    box-shadow: rgb(128, 128, 128) 0 0 7px;
+    margin-top: 1rem;
+    margin: 1rem 1rem;
+    background-color: white;}
+
+.burger{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    color: rgb(165, 165, 165);
+}
+
+.logo_produtos{
+    background-color: transparent;
+}
 
 
 
