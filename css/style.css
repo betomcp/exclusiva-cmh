@@ -23,6 +23,7 @@ body{
 
 
 
+
 /*  MENU  */
 
 header{
@@ -36,7 +37,7 @@ header{
 
     /* background-color: rgba(134, 219, 255, 0.74); */
     -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
 }
 
 header nav{
@@ -148,6 +149,7 @@ header i{
 .home_txt{
     width: 60%;
     height: 67vh;
+    /* border: solid 2px red; */
 }
 
 .home_txt h1{
@@ -162,8 +164,19 @@ header i{
 .home_txt p{
     line-height: 2.2rem;
     font-size: 1.05rem;
-    width: 85%;
+    width: 100%;
+    /* border: solid 2px red; */
+
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -181,10 +194,18 @@ header i{
 
 .empresa_container p{
     padding: 1.4rem 4rem;
-    width: 40%;
+    width: 63%;
     line-height: 2.2rem;
     color: rgb(53, 51, 117);
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -202,6 +223,18 @@ header i{
 .eventos_container h2{
     color: rgb(53, 51, 117);
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -359,6 +392,7 @@ header i{
 
 
 
+
 .contatos_section{
     /* border: solid 2px red;   */
     /* box-shadow: 0 0 5px rgb(0, 0, 0); */
@@ -457,6 +491,13 @@ header i{
 
 
 
+
+
+
+
+
+
+
 /* RESPONSIVO */
 
 
@@ -469,6 +510,12 @@ header i{
         left: 54%;
     }
 }
+
+
+
+
+
+
 
 
 
@@ -549,7 +596,7 @@ header i{
 }
 
 .div_card{
-    width: 23%;
+    width: 25%;
     height: 25rem;
     /* margin-top: 5rem; */
     margin: 1rem 1rem;
@@ -608,13 +655,17 @@ header i{
 }
 
 .arrow{
-    width: 100px;
+    width: 50px;
     height: 70px;
 }
 
 .arrow:hover{
     cursor: pointer;
 }
+
+
+
+
 
 
 
