@@ -1,0 +1,126 @@
+
+/* EVENTOS */
+
+.eventos_container{
+    /* background-image: url(../images/eventos/Eventos.png); */
+    /* background-image: url(../images/eventos/fundo-eventos-3.png); */
+    /* background-image: url(../images/eventos/fundoEventos-4.png); */
+    /* background-image: url(../images/eventos/FundoEventos10.png); */
+    background-image: url(../images/eventos/EventosFinal-01.png);
+
+    /* background-position: right ;
+    background-repeat: no-repeat; */
+    background-size: cover;  
+    /* background-position: bottom; */
+    /* background-position: top; */
+    background-position: bottom;
+    /* display: flex; */
+
+}
+
+.eventos_container h2{
+    color: rgb(53, 51, 117);
+}
+
+
+.div_eventos{
+    width: 50%;
+    height: 62vh;
+    /* border: solid 2px red; */
+    margin-left: 4rem;
+    margin-top: 4rem;
+    padding: 1rem;
+    border-radius: 30px;
+    box-shadow: rgb(165, 165, 165) 0px 0px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.div_eventos h3{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(151, 151, 151);
+    /* padding: 1rem 0 1% 0; */
+    /* padding: 1rem 0; */
+    color: rgb(53, 51, 117);
+
+}
+
+/* .img_eventos_div{
+    width: 70%;
+    text-align: center;
+} */
+
+.div_eventos img{
+    width: 90%;
+    margin-top: 6%;
+}
+
+.tns-controls{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 2px red; */
+    padding: 0 1rem;
+}
+
+.tns-outer button{
+    font-size: 1.3rem;
+    background-color: white;
+    color: rgb(138, 138, 138);
+    outline: none;
+    border: none;
+    box-shadow: rgb(207, 207, 207) 0px 0px 5px;
+    border-radius: 100px;
+    /* padding: 6px; */
+    color: transparent;
+    /* background-color: transparent;
+    cursor:default */
+    /* margin: auto; */
+    display: none;
+}
+
+.tns-controls button{
+    font-size: 1.3rem;
+    background-color: white;
+    color: rgb(138, 138, 138);
+    outline: none;
+    border: none;
+    box-shadow: rgb(207, 207, 207) 0px 0px 5px;
+    border-radius: 100px;
+    padding: 6px;
+    display: block;
+    margin-top: 15px;
+}
+
+
+.div_1{
+    background-image: url(../images/eventos/evento-5.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* width: 1000px; */
+}
+
+.div_2{
+    background-image: url(../images/eventos/eventos-6.jpeg);
+    background-size: cover;
+    background-position: center top;
+}
+
+
+.slide div{
+    /* background-color: red; */
+    /* border: solid green 2px; */
+    height: 54vh;
+    min-width: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.slide div{
+    border-radius: 0px;
+}

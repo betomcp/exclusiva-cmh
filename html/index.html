@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/geral.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/empresa.css">
+    <link rel="stylesheet" href="../css/eventos.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive/responsive.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Exclusiva comercio de material hospitalar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+
+    <title>Exclusiva</title>
 </head>
 <body>
 
@@ -18,7 +29,7 @@
                 <li><a href="#home-id"><i class='bx bxs-home'></i></a></li>
                 <li><a href="#quem-somos-id">A Empresa</a></li>
                 <li><a href="#eventos-id">Eventos</a></li>
-                <li><a href="./produtos.html">Produtos</a></li>
+                <li><a href="./produtos-slide.html">Produtos</a></li>
                 <li><a href="#contato-id">Contato</a></li>
                 <li><a href=""><i class="fas fa-search"></i></a></li>
             </ul>
@@ -42,11 +53,36 @@
                 Promovendo soluções de alta tecnologia e qualidade ao mercado e contribuindo para os resultados dos nossos parceiros e colaboradores.
             </p>
             <div class="div_home_button">
-                <a class="home_button" href="./produtos.html">Nossos Produtos</a>
+                <a class="home_button" href="./produtos-slide.html">Nossos Produtos</a>
             </div>
         </div>
 
-       
+
+        <!-- PARA CELULAR -->
+
+        <div class="menu_burger_home mobile">
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <nav class="mobile">
+
+        </nav>
+
+        <h1 class="mobile">Produtos médicos hospitalares</h1>
+
+        <div class="mobile nuvem_mobile">
+            <img src="../images/home/NuvemAzul.png" alt="">
+        </div>
+
+        <p class="mobile">
+            Há mais de 15 anos no mercado nacional, fornecendo produtos médicos hospitalares seguros, eficazes e inovadores.
+            Promovendo soluções de alta tecnologia e qualidade ao mercado e contribuindo para os resultados dos nossos parceiros e colaboradores.
+        </p>
+
+        <div class="div_home_button mobile">
+            <a class="home_button" href="./produtos-slide.html">Nossos Produtos</a>
+        </div>
 
     </div>
 
@@ -59,102 +95,55 @@
         </p>
     </div>
 
+   
+
+    
     <div class="container eventos_container" id="eventos-id">
         <h2>Eventos</h2>
-    </div>
 
-    <!-- <div class="container contato_container" id="contato-id">
-        <div class="contato_img">
-            <img src="../images/vetores-svg/vetor-contato-1.svg" alt="">
-        </div>
-        <div class="contato_background">
-            <h2>Contatos e Parceiros</h2>
-
-            
-            <div class="contato_main">
-
-                 
-                <section class="contatos_section">
-                    
-                    <ul>
-                        <h3>Contatos</h3>
-                        <li><i class="fas fa-phone-alt"></i> (11) 3659-7450</li>
-                        <li><i class="fab fa-whatsapp"></i> (11) 3659-7450</li>
-                        <li><i class="fas fa-envelope"></i> exclusiva@gmail.com</li>
-
-                        <h3>Endereço</h3>
-                        <li><i class="fas fa-map-marker-alt"></i> Rua nome de alguma rua N° 1823</li>
-                    </ul>
-                    <ul>
-                        <h3>Mídias Sociais</h3>
-                        <li><i class="fab fa-linkedin"></i> linkedinExclsuiva.com.br</li>
-                        <li><i class="fab fa-instagram"></i> instagram exclsuiva</li>
-                    </ul>
-
-                </section>
-
-                <section class="parceiros_section">
-                    <h3>Nossos Parceiros</h3>
-                    <div class="parceiros_images">
-
-
-                        <div class="columns_parceiro">
-                            <div class="cardFlip flip" id="card-biotronic-id">
-                                <div class="front face">
-                                    <img src="../images/contato/biotronic.jpg" alt="">
-                                </div>
-                                <div class="back face">
-                                    Pequeno texto sobre a parceria
-                                </div>
-                            </div>
-                            <div class="cardFlip flip"  id="card-canon-id">
-                                <div class="front face">
-                                    <img src="../images/contato/canon.png" alt="">
-                                </div>
-                                <div class="back face">
-                                    Pequeno texto sobre a parceria
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="columns_parceiro">
-                            <div class="cardFlip flip" id="card-smt-id">
-                                <div class="front face">
-                                    <img src="../images/contato/smt2.png" alt="">
-                                </div>
-                                <div class="back face">
-                                    Pequeno texto sobre a parceria
-                                </div>
-                            </div>
-                            <div class="cardFlip flip" id="card-convatec-id">
-                                <div class="front face">
-                                    <img src="../images/contato/convatec-2.png" alt="">
-                                </div>
-                                <div class="back face">
-                                    Pequeno texto sobre a parceria
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                    </div>
-
-                </section>
+        <div class="div_eventos">
+            <div class="slide">
+                <div class="div_1">
+                </div>
+                <div class="div_2">
+                </div>
+                <div class="div_2">
+                </div>
+                <div class="div_1">
+                </div>
                 
-
             </div>
         </div>
-    </div> -->
+    </div>
+
+   
 
     <div class="container contato_container" id="contato-id">
 
+        <h2>Contatos & Parceiros</h2>
+
+        <div class="contatos_conteudo">
+            <ul>
+                <li><i class="fab fa-linkedin"></i> Exclusiva Comércio de Material Hospitalar</li>
+                <li><i class="fab fa-instagram"></i> exclusiva_materiahospitalar</li>
+                <li><i class="fab fa-whatsapp"></i> 21 97012-9663</li>
+                <li> <i class="fas fa-phone-alt"></i> +55 (21)97012-9663</li>
+                <li><i class="fas fa-envelope"></i> Comercial@exclusivabrasil.com</li>
+            </ul>
+            <div class="endereco">
+                <img src="../images/contato/Contatos/Brasil.png">
+                <p><i class="fas fa-map-marker-alt"></i> Avenida Engenheiro Luiz Carlos Berrini 1178 - Andar 10 /Sala 101. Itaim Bibi - SP</p>
+                <p><i class="fas fa-map-marker-alt"></i> Rua Victor Civita, 77 - Bloco 1 /Sala 105 - Jacarepaguá. Rio de Janeiro - RJ</p>
+            </div>
+        </div>
+
     </div>
 
-    <!-- <footer class="container">
+    </div> 
 
-    </footer> -->
-
-    <script src="../js/script.js"></script>
     <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+/* EMPRESA */
+
+.empresa_container{
+    /* background-image: url(../images/sobre-nos/Empresa.png); */
+    background-image: url(../images/sobre-nos/quem-somos-fundo-2.png);
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+
+.empresa_container p{
+    padding: 1.4rem 4rem;
+    width: 63%;
+    line-height: 2.2rem;
+    color: rgb(53, 51, 117);
+}

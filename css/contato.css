@@ -1,0 +1,62 @@
+/* CONTATO */
+
+.contato_container{
+    /* background-image: url(../images/contato/Contatos/fundo3_1.png); */
+    /* background-image: url(../images/contato/fundo_contatos-3.png); */
+    /* background-color: rgb(48, 9, 116); */
+    /* background-color: red; */
+    /* background-image: url(../images/contato/fundo_contato2.png); */
+    /* background-image: url(../images/contato/FundoCOntato10.png); */
+    /* background-image: url(../images/contato/contatosfinal02.png); */
+    background-image: url(../images/contato/contatosfinal03.png);
+
+    background-size: cover;
+    /* background-position: bottom; */
+}
+
+.contato_container h2{
+    color: white;
+}
+
+.contatos_conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatos_conteudo ul{
+    width: 49%;
+    list-style: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    padding: .7rem 4rem;
+    margin-top: .9rem;
+}
+
+.contatos_conteudo ul li{
+    padding: 1rem 0;
+}
+
+.contatos_conteudo .endereco{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.4rem;
+}
+
+.contatos_conteudo .endereco p{
+    width: 90%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    padding: .7rem 0;
+    margin-top: 1rem;
+}
+
+.contatos_conteudo .endereco img{
+    width: 34%;
+}
+

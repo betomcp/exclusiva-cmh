@@ -1,19 +1,19 @@
-// card parceiros flip
+var slider = tns({
+    container: '.slide',
+    items: 1,
+    slideBy: "page",
+    mouseDrag: true,
+    autoplay: true,
+    nav: false,
+    // arrowKeys: true
+    controlsPosition: "bottom",
+    // center: true
+    controlsText: ["<", ">"],
+    // controlsContainer: "#customize-controls"
+    autoplayTimeout: 2500,
+    // autoplayText: ["▶","❚❚"],
+    autoplayText: ["","❚"]
+    });
 
-const cardSmt = document.getElementById('card-smt-id')
-const cardCanon = document.getElementById('card-canon-id')
-const cardConvatec = document.getElementById('card-convatec-id')
-const cardBiotronic = document.getElementById('card-biotronic-id')
 
-cardSmt.addEventListener('click', (e) =>{
-    cardSmt.classList.toggle('flip')
-})
-cardCanon.addEventListener('click', (e) =>{
-    cardCanon.classList.toggle('flip')
-})
-cardBiotronic.addEventListener('click', (e) =>{
-    cardBiotronic.classList.toggle('flip')
-})
-cardConvatec.addEventListener('click', (e) =>{
-    cardConvatec.classList.toggle('flip')
-})
+    // const slideBtns = document.querySelectorAll('tns-outer button');

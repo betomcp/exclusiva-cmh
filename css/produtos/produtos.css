@@ -1,0 +1,205 @@
+
+
+/* PRODUTOS NOVO */
+
+#body-produtos{
+    /* background-image: linear-gradient(170deg, white, rgb(145, 216,2477), rgb(0, 152, 218), rgb(53, 51, 117)); */
+    background-image: url(../../images/produtos/fundoCorreto-produtos.png);
+    background-size: cover;
+    /* background-color: black; */
+}
+
+
+.container_produtos_novo{
+    padding: 0 4rem;
+    margin-top: 4rem;
+    /* min-height: 50vh; */
+    /* border: solid 2px rgb(87, 55, 55); */
+}
+
+
+
+
+
+#produtos-fundo-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 47%;
+}
+
+.container_produtos_1 {
+    margin-top: 10rem;
+    /* border: solid 2px red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_produtos_1 h2{
+    /* color: rgb(0, 152, 247); */
+    color: white;
+    font-weight: 300;
+    font-size: 10rem;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+.container_produtos_1 p{
+    padding: .4rem 10rem;
+    font-size: 1rem;
+    text-align: center;
+    /* color: rgb(87, 87, 87); */
+    color: rgb(53, 51, 117);
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+
+
+
+
+#container-p-1-id .card_p{
+    margin-bottom: 7rem;
+}
+
+
+
+.container_produtos_novo .card_p{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid 2px red; */
+    /* min-height: auto; */
+}
+
+.card_p .white_card{
+    width: 100%;
+    height: 29.375rem;
+    border-radius: 30px;
+    box-shadow: rgb(90, 90, 90) 0 0 5px;
+    margin: auto;
+    background-color: white;
+    padding: 2.5rem;
+    transition: .3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .card_p .white_card:hover{
+    box-shadow: black 0 0 10px;
+    cursor: pointer;
+} */
+
+.card_p img{
+    width: 78%;
+    /* height: 100px; */
+}
+
+.card_p h3{
+    color: rgb(0, 152, 218);
+    font-size: 1.7rem;
+}
+
+.card_p .ver_mais_btn{
+    /* padding: 0; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.card_p .ver_mais_btn a{
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    background-color: rgb(0, 152, 218);
+    color: white;
+    text-decoration: none;
+    box-shadow: black 0 0 3px;
+    transition: .3s;
+}
+
+.card_p .ver_mais_btn a:hover{
+    cursor: pointer;
+    background-color: rgb(53, 51, 117);
+}
+
+.card_p .ver_mais_btn a:active{
+    box-shadow: black 0 0 3px inset;
+}
+
+
+
+.container_produtos_novo .tns-outer button{
+    background-color: rgb(145, 216, 247);
+    background-color: rgb(0, 152, 218);
+    width: 6rem;
+    color: white;
+    height: 3.8rem;
+    box-shadow: black 0 0 2px;
+    margin: 1.2rem;
+    font-size: 2rem;
+}
+
+.container_produtos_novo .tns-outer button:active{
+    box-shadow: rgb(66, 66, 66) 0px 0px 6px inset;
+}
+
+.container_produtos_novo h2{
+    /* border: solid 2px red; */
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    padding: 0 0 .6rem 0;
+}
+
+
+
+#body-produtos header a{
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.tns-outer button{
+    font-size: 1.3rem;
+    background-color: white;
+    color: rgb(138, 138, 138);
+    outline: none;
+    border: none;
+    box-shadow: rgb(207, 207, 207) 0px 0px 5px;
+    border-radius: 100px;
+    /* padding: 6px; */
+    color: transparent;
+    /* background-color: transparent;
+    cursor:default */
+    /* margin: auto; */
+    display: none;
+}
+
+.tns-controls button{
+    font-size: 1.3rem;
+    background-color: white;
+    color: rgb(138, 138, 138);
+    outline: none;
+    border: none;
+    box-shadow: rgb(207, 207, 207) 0px 0px 5px;
+    border-radius: 100px;
+    padding: 6px;
+    display: block;
+}
+
+.tns-controls{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid 2px red; */
+    padding: 0 1rem;
+}
