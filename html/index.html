@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../css/contato.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive/responsive.css">
+    <link rel="stylesheet" href="../css/responsive/menu-burger-home.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
@@ -60,13 +61,20 @@
 
         <!-- PARA CELULAR -->
 
-        <div class="menu_burger_home mobile">
+        <div class="menu_burger_home mobile" id="menu-burger-home">
             <hr>
             <hr>
             <hr>
         </div>
-        <nav class="mobile">
-
+        <nav class="mobile nav_mobile">
+            <ul>
+                <li><a href="#home-id"><i class='bx bxs-home'></i></a></li>
+                <li><a href=""><i class="fas fa-search"></i></a></li>
+                <li><a href="#quem-somos-id">A Empresa</a></li>
+                <li><a href="#eventos-id">Eventos</a></li>
+                <li><a href="./produtos-slide.html">Produtos</a></li>
+                <li><a href="#contato-id">Contato</a></li>
+            </ul>
         </nav>
 
         <h1 class="mobile">Produtos médicos hospitalares</h1>
@@ -89,10 +97,18 @@
 
     <div class="container empresa_container" id="quem-somos-id">
         <h2>A Empresa</h2>
+
+        <div class="mobile empresa_img_mobile">
+            <img src="../images/sobre-nos/IlustracaoEmpresa-ajustado.png" alt="">
+        </div>
+
         <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas dicta corrupti nemo facere corporis esse natus quia tempora distinctio, mollitia, impedit labore repudiandae voluptate, sint quisquam suscipit iure odio dolore!
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas dicta corrupti nemo facere corporis esse natus quia tempora distinctio, mollitia, impedit labore repudiandae voluptate, sint quisquam suscipit iure odio dolore!
+            Comprometida com a excelência em tudo o que faz, a Exclusiva sempre busca agilidade e bem estar de seus pacientes, com profissionais engajados para promover soluções de alta tecnologia e qualidade ao mercado, contribuindo para os resultados dos nossos parceiros e colaboradores.  
+            Inovação, compromisso com a qualidade de vida e geração de valor aos clientes.
         </p>
+        <div class="mobile_2 mobile_background_empresa">
+            <img src="../images/sobre-nos/Empresafundo800px.png" alt="">
+        </div>
     </div>
 
    
@@ -145,5 +161,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="../js/script.js"></script>
+    <script src="../js/menu-burger-home.js"></script>
 </body>
 </html>

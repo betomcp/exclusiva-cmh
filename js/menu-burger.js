@@ -1,3 +1,6 @@
+
+//MENU BURGER PARA AS PÁGINAS DE CADA PRODUTO:
+
 const menuBurger = document.getElementById('menu-burger-id')
 const openMenu = document.getElementById('open-menu-id')
 const openMenuDiv = document.querySelectorAll('.open_menu div')
@@ -38,3 +41,5 @@ menuBurger.addEventListener('click', () =>{
         hrs[2].style.backgroundColor = 'black'
     }
 })
+
+
