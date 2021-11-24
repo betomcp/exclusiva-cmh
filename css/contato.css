@@ -11,6 +11,8 @@
     background-image: url(../images/contato/contatosfinal03.png);   
     background-size: cover;
     /* background-position: bottom; */
+
+    position: relative;
 }
 
 .contato_container h2{
@@ -59,3 +61,18 @@
     width: 34%;
 }
 
+
+.parceiros_bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.parceiros_bottom img{
+    width: 13%;
+    margin: 1rem 2rem;
+    display: block;
+}

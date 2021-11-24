@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/produtos/produtos.css">
     <link rel="stylesheet" href="../css/responsive/responsive.css">
+    <link rel="stylesheet" href="../css/responsive/menu-burger-home.css">
 
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
@@ -65,10 +66,27 @@
             </div>
         </div>
 
+        <!-- PARA CELULAR -->
+
+        <div class="menu_burger_home mobile" id="menu-burger-home">
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <nav class="mobile nav_mobile">
+            <ul>
+                <li><a href="./index.html"><i class='bx bxs-home'></i></a></li>
+                <li><a href="./index.html#quem-somos-id">A empresa</a></li>
+                <li><a href="./index.html#eventos-id">Eventos</a></li>
+                <li><a href="./produtos-slide.html">Produtos</a></li>
+                <li><a href="./index.html#contato-id">Contato</a></li>
+                <li><a href=""><i class="fas fa-search"></i></a></li>
+            </ul>
+        </nav>
         
     </div>
     
-    <div class="container_produtos_novo" id="container-p-1-id">
+    <div class="container_produtos_novo no_mobile" id="container-p-1-id">
 
         <h2>Intervenção Vascular Coronária (CVI)</h2>
 
@@ -123,7 +141,7 @@
 
 
     
-    <div class="container_produtos_novo">
+    <div class="container_produtos_novo no_mobile">
 
         <h2>Fios Guia Coronário</h2>
 
@@ -155,7 +173,7 @@
 
 
 
-    <div class="container_produtos_novo">
+    <div class="container_produtos_novo no_mobile">
 
         <h2>Cateteres Balão Coronário</h2>
 
@@ -185,7 +203,7 @@
         </div>
     </div>
     
-    <div class="container_produtos_novo">
+    <div class="container_produtos_novo no_mobile">
 
         <h2>Balão Coronário Liberdor de Fármaco</h2>
 
@@ -206,7 +224,7 @@
 
 
 
-    <div class="container_produtos_novo">
+    <div class="container_produtos_novo no_mobile">
 
         <h2>Canon Alphenix</h2>
 
@@ -268,10 +286,73 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+    <!-- MOBILE -->
+
+    <div class="container_produtos_novo mobile" id="container-p-1-id">
+
+        <h2>Intervenção Vascular Coronária (CVI)</h2>
+        <div class="cards_mobile">  
+            <div class="card_p">
+                <div class="white_card">
+                    <h3>Orsiro Mission</h3>
+                    <img src="../images/produtos/Biotronik/Intervenção Vascular Coronária/cWhE_gmg.png" alt="">
+                    <div class="ver_mais_btn">
+                        <a href="../html/produtos-page/orsiro-mission.html">
+                            Ver Mais +
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_p">
+                <div class="white_card">
+                    <h3>PK Papyrus</h3>
+                    <img src="../images/produtos/Biotronik//Intervenção Vascular Coronária/PK Papyrus.png" alt="">
+                    <div class="ver_mais_btn">
+                        <a href="#">
+                            Ver Mais +
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_p">
+                <a href="">
+                    <div class="white_card">
+                        <h3>Orsiro</h3>
+                        <img src="../images/produtos/Biotronik/Intervenção Vascular Coronária/Orsiro.png" alt="">
+                        <!-- <div class="ver_mais_btn">
+                                Ver Mais +
+                        </div> -->
+                    </div>
+                </a>
+                
+            </div>
+            <div class="card_p">
+                <div class="white_card">
+                    <h3>Pro Kinetic Energy</h3>
+                    <img src="../images/produtos/Biotronik/Intervenção Vascular Coronária/Pro Kinetic Energy.png" alt="">
+                    <div class="ver_mais_btn">
+                        <a href="#">
+                            Ver Mais +
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
     
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="../js/script-2.js"></script>
+
+    <script src="../js/menu-burger-home.js"></script>
 </body>
 </html>
