@@ -248,7 +248,7 @@
     }
 
     .cards_mobile .card_p .white_card h3{
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
 
     .white_card{
@@ -352,6 +352,10 @@
     .contatos_conteudo ul, .contatos_conteudo .endereco p{
         font-size: .8rem;
         padding: 1rem;
+    }
+
+    .parceiros_bottom{
+        bottom: 10%;
     }
 
     .parceiros_bottom img{
