@@ -198,11 +198,12 @@
     }
 
     #body-produtos{
-        background-image: none;
+        background-image: url(../../images/produtos/fundo.png);
+        background-size: cover;
     }
 
     .container_produtos_1 h2{
-        color: rgb(145, 216, 247);
+        color: white;
         font-size: 6rem;
     }
 
