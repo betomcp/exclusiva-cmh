@@ -1,0 +1,9 @@
+.div_p_2_img{
+    padding: 3rem 0;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.div_p_2_img img{
+    width: 50%;
+}
