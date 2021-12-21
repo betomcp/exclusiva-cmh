@@ -1,0 +1,11 @@
+.div_p_2_img{
+    /* border: solid 2px red; */
+    padding: 3rem 0;
+    justify-content: flex-start;
+    /* position: ; */
+    width: 100%;
+}
+
+.div_p_2_img img{
+    width: 60%;
+}
