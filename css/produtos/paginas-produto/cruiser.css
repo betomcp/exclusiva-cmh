@@ -9,3 +9,12 @@
 .div_p_2_img img{
     width: 60%;
 }
+
+.div_p_1 p{
+    width: 100%;
+    padding: .5rem;
+}
+
+.div_p_1 img{
+    padding: .5rem;
+}
