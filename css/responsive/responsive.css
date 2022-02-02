@@ -363,6 +363,12 @@
         width: 17%;
     }
 
+    /* PRODUTOS */
+
+    #produtos-fundo-logo{
+        width: 80%;
+    }
+
 }
 
 @media (max-width: 400px){
