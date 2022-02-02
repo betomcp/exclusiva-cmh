@@ -53,5 +53,23 @@ var slider = tns({
     autoplayText: ["","❚"]
 });
 
+var slider = tns({
+    container: '.slide-6',
+    items: 3,
+    mouseDrag: true,
+    nav: false,
+    controlsText: ["<", ">"],
+    autoplayText: ["","❚"]
+});
+
+var slider = tns({
+    container: '.slide-7',
+    items: 3,
+    mouseDrag: true,
+    nav: false,
+    controlsText: ["<", ">"],
+    autoplayText: ["","❚"]
+});
+
 
   
