@@ -1,0 +1,29 @@
+
+
+@media (max-width: 1000px){
+
+    html{
+        font-size: 11px;
+    }
+
+    #produto-page-body h1{
+        font-size: 6rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 750px){
+
+    html{
+        font-size: 10px;
+    }
+
+    .div_p_1{
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+    }
+}

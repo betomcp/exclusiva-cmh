@@ -39,7 +39,7 @@
     bottom: 0;
     z-index: 0;
     width: 35%;
-    background-color: rgb(206, 206, 206);
+    /* background-color: rgb(206, 206, 206); */
     padding: 5rem 1rem 2rem 1rem;
     color: transparent;
     background-color: transparent;
@@ -50,16 +50,21 @@
     justify-content: space-between;
     
     
-    /* -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px); */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 .open_menu{
     width: 0px;
-    background-color: rgb(206, 206, 206);
-    color: white;
-
+    /* background-color: rgb(206, 206, 206); */
+    color: rgb(0, 0, 0);
     left: -50px;
+}
+
+.open_menu a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
 }
 
 .open_menu div{
