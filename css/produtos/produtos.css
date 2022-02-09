@@ -206,3 +206,13 @@
     /* border: solid 2px red; */
     padding: 0 1rem;
 }
+
+
+.fa-chevron-up{
+    position: fixed;
+    right: 10px;
+    top: 93%;
+    font-size: 2rem;
+    color: black;
+    z-index: 5;
+}
