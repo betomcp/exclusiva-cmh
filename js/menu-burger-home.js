@@ -34,6 +34,17 @@ menuBurgerHome.addEventListener('click', () =>{
 
 
 homeContainer.addEventListener("click", ()=>{
+    if(nav.style.width == '-50%'){
+        // debugger
+        nav.style.right = '-50px'
+        nav.style.width = '0%'
 
+        //animação do X
+        menuBurgerHome.style.justifyContent = 'space-around'
+        
+        hrsHome[0].style.transform = 'rotate(0deg)'
+        hrsHome[1].style.transform = 'rotate(0deg)'
+        hrsHome[2].style.backgroundColor = 'black'
+    }
 })
 
