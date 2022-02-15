@@ -70,6 +70,7 @@
     /* border: solid 2px red; */
 }
 
+
 .vendedor ul li{
     /* border: solid 2px red; */
     display: flex;
@@ -91,4 +92,27 @@
 .nome{
     color: black;
     text-transform: uppercase;
+}
+
+.font_transparent ul li{
+    color: transparent;
+}
+
+.contato_top{
+    /* border: solid 2px red; */
+    position: fixed;    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2.2rem;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
+    background-color: rgb(51, 53, 117);
+    color: white;
+    font-weight: 400;
+    font-size: .8rem;
+    /* border-radius: 20px; */
 }
