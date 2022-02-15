@@ -94,9 +94,6 @@
     text-transform: uppercase;
 }
 
-.font_transparent ul li{
-    color: transparent;
-}
 
 .contato_top{
     /* border: solid 2px red; */
@@ -115,4 +112,25 @@
     font-weight: 400;
     font-size: .8rem;
     /* border-radius: 20px; */
+}
+
+
+.linha_vendedores_2{
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.linha_vendedores_2 .vendedor{
+    width: 50%;
+}
+
+.linha_vendedores_2 .left_vendedor{
+    border-right: black 1px solid;
+    padding-right: 2rem;
+}
+
+.linha_vendedores_2 .right_vendedor{
+    border-left: black 1px solid;
 }
