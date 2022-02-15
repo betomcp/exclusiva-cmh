@@ -1,5 +1,10 @@
 /* HOME */
 
+.contato_top{
+    border: solid 2px red;
+    position: fixed;    
+}
+
 .home_container{
     background-image: url(../images/home/FundoHome.png);
     background-position: right ;
