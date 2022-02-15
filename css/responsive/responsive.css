@@ -66,6 +66,7 @@
         align-items: center;
         color: white;
         background-color: rgb(53, 51, 117);
+        z-index: 3;
     }
 
     .contato_mobile div{
