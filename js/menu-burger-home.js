@@ -3,6 +3,7 @@
 const menuBurgerHome = document.getElementById('menu-burger-home')
 const hrsHome = document.querySelectorAll('.menu_burger_home hr')
 const nav = document.querySelector('.nav_mobile')
+const homeContainer = document.getElementById('home-id')
 
 menuBurgerHome.addEventListener('click', () =>{
 
@@ -31,3 +32,9 @@ menuBurgerHome.addEventListener('click', () =>{
         hrsHome[2].style.backgroundColor = 'black'
     }
 })
+
+
+homeContainer.addEventListener("click", ()=>{
+    
+})
+
