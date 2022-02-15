@@ -1,8 +1,20 @@
 /* HOME */
 
 .contato_top{
-    border: solid 2px red;
-    position: fixed;    
+    /* border: solid 2px red; */
+    position: absolute;    
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 25px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    background-color: rgb(122, 218, 250);
+    color: black;
+    font-weight: 400;
+    /* border-radius: 20px; */
 }
 
 .home_container{
@@ -15,6 +27,8 @@
     align-items: flex-end;
     justify-content: space-between;
     color: rgb(53, 51, 117);
+
+    /* margin-top: 25px; */
 }
 
 

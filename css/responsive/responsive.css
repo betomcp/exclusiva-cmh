@@ -55,6 +55,22 @@
     }
 
 
+    .contato_mobile{
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 4rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: aqua;
+    }
+
+    .contato_mobile p{
+        text-align: center;
+    }
+
     /* HOME */
 
     .home_txt, .nuvem{
