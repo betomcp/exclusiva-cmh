@@ -8,7 +8,6 @@ const homeContainer = document.getElementById('home-id')
 menuBurgerHome.addEventListener('click', () =>{
 
     if(menuBurgerHome.style.justifyContent == 'space-around' || menuBurgerHome.style.justifyContent == ''){
-        
 
         nav.style.right = '0'
         nav.style.width = '50%'
@@ -35,6 +34,6 @@ menuBurgerHome.addEventListener('click', () =>{
 
 
 homeContainer.addEventListener("click", ()=>{
-    
+
 })
 
