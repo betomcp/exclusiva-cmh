@@ -110,3 +110,13 @@
     color: rgb(0, 152, 218);
 }
 
+
+
+.arrow_back{
+    position: fixed;
+    left: 5px;
+    top: 80px;
+    font-size: 3rem;
+    color: black;
+}
+
