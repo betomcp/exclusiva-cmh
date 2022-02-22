@@ -3,11 +3,11 @@
 const menuBurgerHome = document.getElementById('menu-burger-home')
 const hrsHome = document.querySelectorAll('.menu_burger_home hr')
 const nav = document.querySelector('.nav_mobile')
+const homeContainer = document.getElementById('home-id')
 
 menuBurgerHome.addEventListener('click', () =>{
 
     if(menuBurgerHome.style.justifyContent == 'space-around' || menuBurgerHome.style.justifyContent == ''){
-        
 
         nav.style.right = '0'
         nav.style.width = '50%'
@@ -31,3 +31,7 @@ menuBurgerHome.addEventListener('click', () =>{
         hrsHome[2].style.backgroundColor = 'black'
     }
 })
+
+
+
+

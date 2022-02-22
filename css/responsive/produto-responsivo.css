@@ -23,7 +23,12 @@
 
     .div_p_1{
         flex-direction: column-reverse;
-        width: 100%;
+        width: 90%;
         text-align: center;
+    }
+
+    .div_p_1 p{
+        text-align: center;
+        width: 100%;
     }
 }
