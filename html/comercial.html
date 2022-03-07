@@ -9,12 +9,32 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/comercial.css">
     <link rel="stylesheet" href="../css/responsive/responsive.css">
+    <link rel="stylesheet" href="../css/responsive/menu-burger-home.css">
 
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
     <title>Comercial Exclusiva</title>
 </head>
 <body>
+
+    <!-- PARA CELULAR -->
+
+    <div class="menu_burger_home mobile" id="menu-burger-home">
+        <hr>
+        <hr>
+        <hr>
+    </div>
+    <nav class="mobile nav_mobile">
+        <ul>
+            <li><a href="#home-id"><i class='bx bxs-home'></i></a></li>
+            <li><a href="#quem-somos-id">A Empresa</a></li>
+            <li><a href="#eventos-id">Eventos</a></li>
+            <li><a href="./produtos-slide.html">Produtos</a></li>
+            <li><a href="#contato-id">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- PARA CELULAR FIM -->
 
     <div class="contato_top mobile_display_none">
         <p>Matriz Rio de Janeiro (21) 2425-0688</p> 
@@ -49,7 +69,9 @@
         <div class="ilustracao">
             <img src="../images/ilustracao-comercial.png" alt="Ilustração">
         </div>
+    </div>    
 
+    <div class="container_2">
         <div class="linha_vendedores">
             <div class="vendedor">
                 <ul>
@@ -100,5 +122,10 @@
                 </ul>
             </div>
         </div>
+    </div>
+
+
+    <script src="../js/menu-burger-home.js"></script>
+
 </body>
 </html>
