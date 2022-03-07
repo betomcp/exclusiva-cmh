@@ -109,6 +109,11 @@
     background-position: center top;
 }
 
+.div_3{
+    background-image: url(../images/eventos/IV\ conencao\ de\ vendas\ canon.png);
+    background-size: cover;
+    background-position: center top;
+}
 
 .slide div{
     /* background-color: red; */
@@ -124,3 +129,6 @@
 .slide div{
     border-radius: 0px;
 }
+
+
+

@@ -81,3 +81,19 @@
 .parceiros_bottom .canon_logo{
     width: 20%;
 }
+
+.contato_sp_rio{
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 0.5rem 0;
+    justify-content: space-between;
+}
+
+.contato_sp_rio div{
+    /* border: solid 1px; */
+    padding: 0.5rem 0;
+}
+
+.contato_sp_rio p{
+    padding-top: 6px;
+}

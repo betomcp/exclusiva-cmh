@@ -238,7 +238,9 @@
         width: 40%;
     }
 
-
+    .contato_sp_rio{
+        flex-direction: column;
+    }
 
     /* PRODUTOS */
 
@@ -452,6 +454,7 @@
     .parceiros_bottom img{
         width: 17%;
     }
+
 
     /* PRODUTOS */
 
